@@ -22,6 +22,10 @@ public class CutstomMaxHeap {
 		heap.print();
 		heap.changeValue(1, 15);
 		heap.print();
+		heap.delete(1);
+		heap.print();
+		heap.delete(0);
+		heap.print();
 	}
 	
 	CutstomMaxHeap(int size) {
@@ -171,6 +175,21 @@ public class CutstomMaxHeap {
 		this.heap[this.heapSize++] = val;
 		this.upHeapify(this.heapSize - 1);
 //		this.upHeapifyRecursively(this.heapSize - 1);
+	}
+	
+	/**
+	 * Delete node at pos index
+	 * @param pos index
+	 */
+	public void delete(int pos) {
+		if(this.heapSize == 0) {
+			new Error("Heap is already empty");
+		} else if(pos >= this.heapSize) {
+			new Error("Given index does not exist in heap.");
+		} else {
+			int lastNodeVal = this.heap[--this.heapSize];
+			this.changeValue(pos, lastNodeVal);
+		}
 	}
 	
 	/**
