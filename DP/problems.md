@@ -1,4 +1,11 @@
-# Problems based on 0/1 Kanpsack
+Here we have discussed three types of DP problem
+1. 0/1 Knapsack - We can select at max one item [Link](#problems-based-on-01-knapsack)  
+2. Unbounded 0/1 Knapsack - We can select as many items as we want [Link](#problems-based-on-unbounded-01-knapsack)  
+3. Bounded 0/1 Knapsack - Quantity of each item will be given to us.  [Link](#problems-based-on-bounded-01-knapsack)  
+  
+---
+  
+# Problems based on 0/1 Knapsack
 
 ### 1. 0/1 Knapsack Problem 
    Maximize profit for given knapsack capacity and given item list  
@@ -57,6 +64,27 @@
   Assume all +ve values in one subset and -ve values in other subset S1 and S2 repectively
   Now, S1 - S2 = Target its same as S1 - S2 = Diff (Problem 6)
   ```  
+  
+ ---
+    
+    
+  
+  # Problems based on Unbounded 0/1 Knapsack  
+  Unbounded means we can select same item as many times as we want there is no restriction on limit of items.  
+  
+  ### 1. Coin Change Problem 
+   Fewest number of coins that you need to make up that amount.  
+  #### Question Link - https://leetcode.com/problems/coin-change/  
+  
+  
+  ### 2. Coin Change Problem 2
+  Number of combinations that make up that amount.  
+  #### Question Link - https://leetcode.com/problems/coin-change-2/  
+  
+---
+    
+# Problems based on Bounded 0/1 Knapsack  
+  
   
   
   
