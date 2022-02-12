@@ -81,6 +81,10 @@ Here we have discussed three types of DP problem
   Number of combinations that make up that amount.  
   #### Question Link - https://leetcode.com/problems/coin-change-2/  
   
+  ### 3. Road Cutting Problem
+  Given a rod of length N inches and an array of prices, price[] that contains prices of all pieces of size smaller than N. Determine the maximum value obtainable by cutting up the rod and selling the pieces.
+  #### Question Link - https://practice.geeksforgeeks.org/problems/rod-cutting0840/1
+  
 ---
     
 # Problems based on Bounded 0/1 Knapsack  
