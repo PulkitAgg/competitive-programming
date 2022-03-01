@@ -120,6 +120,10 @@ Len of SCS
 ```
   
   
-  
+### 3. Uncrossed Lines  
+You are given two integer arrays nums1 and nums2. Return the maximum number of connecting lines we can draw in this way  
+#### Question Link - https://leetcode.com/problems/uncrossed-lines/
+
+##### Note: Same as LCS because all uncrossed lines can be find only if we find LCS for all numbers
    
    
