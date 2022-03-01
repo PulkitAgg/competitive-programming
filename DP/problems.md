@@ -85,7 +85,15 @@ Here we have discussed three types of DP problem
   ### 3. Rod Cutting Problem
   Given a rod of length N inches and an array of prices, price[] that contains prices of all pieces of size smaller than N. Determine the maximum value obtainable by cutting up the rod and selling the pieces.
   #### Question Link - https://practice.geeksforgeeks.org/problems/rod-cutting0840/1
-  #### DP Solution: https://gist.github.com/PulkitAgg/f8c1a22bc88381fb87082e6415194a15
+  #### DP Solution: https://gist.github.com/PulkitAgg/f8c1a22bc88381fb87082e6415194a15   
+  
+  
+### 4. Minimum Operations to Reduce X to Zero  
+   You are given an integer array nums and an integer x. In one operation, you can either remove the leftmost or the rightmost element from the array nums and subtract its value from x. Note that this modifies the array for future operations.  
+Return the minimum number of operations to reduce x to exactly 0 if it is possible, otherwise, return -1.
+
+#### Question Link - https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/  
+##### Note: 
   
 ---
     
