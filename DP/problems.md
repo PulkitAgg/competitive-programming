@@ -2,6 +2,7 @@ Here we have discussed three types of DP problem
 1. 0/1 Knapsack - We can select at max one item [Link](#problems-based-on-01-knapsack)  
 2. Unbounded 0/1 Knapsack - We can select as many items as we want [Link](#problems-based-on-unbounded-01-knapsack)  
 3. Bounded 0/1 Knapsack - Quantity of each item will be given to us.  [Link](#problems-based-on-bounded-01-knapsack)  
+4. Problems Based On String [Link](#problems-based-on-string)  
   
 ---
   
@@ -93,12 +94,30 @@ Here we have discussed three types of DP problem
 
 ---
 
-# Problems Based String  
+# Problems Based On String  
 
 ### 1. Longest Common Subsequence  
 Given two strings text1 and text2, return the length of their longest common subsequence. If there is no common subsequence, return 0.  
 #### Question Link - https://leetcode.com/problems/longest-common-subsequence/
   
+  
+    
+### 2. Shortest Common Supersequence  
+Given two strings str1 and str2, return the shortest string that has both str1 and str2 as subsequences. If there are multiple valid strings, return any of them.  
+#### Question Link - https://leetcode.com/problems/shortest-common-supersequence/  
+
+##### Note: Use concept of LCS
+```
+Solution Steps
+1. Find LCS String (Use LCS for finding LCS Len then find actual string)
+2. Add all non common char to result until you find LCS char from both string
+3. Add LCS character only once and move all pointers to next char
+
+Len of SCS
+ Max Len of SCS = L1 + L2
+ LCS Len = LCS_LEN
+ Len of SCS = Max Len of SCS - LCS Len =  L1 + L2 - LCS_LEN
+```
   
   
   
