@@ -3,5 +3,5 @@
 
 ## String
 1. #### Reverse of String    
-        `new StringBuilder(str).reverse().toString()`
+        new StringBuilder(str).reverse().toString()
    
