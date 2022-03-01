@@ -88,7 +88,16 @@ Here we have discussed three types of DP problem
   
 ---
     
-# Problems based on Bounded 0/1 Knapsack  
+# Problems based on Bounded 0/1 Knapsack   
+
+
+---
+
+# Problems Based String  
+
+### 1. Longest Common Subsequence  
+Given two strings text1 and text2, return the length of their longest common subsequence. If there is no common subsequence, return 0.  
+#### Question Link - https://leetcode.com/problems/longest-common-subsequence/
   
   
   
