@@ -31,6 +31,9 @@ Here we have discussed three types of DP problem
   Count all subsets of the given array with a sum equal to a given sum.    
   #### Question Link - https://practice.geeksforgeeks.org/problems/perfect-sum-problem5633/1  
   ##### Note: Check edge case for {0,0,0,0,0,1} sum = 1   
+  ```
+  Same as Problem 2 (Subset Sum Problem) instead of taking || this time we will add in case of inclusion because we want number.
+  ```
   
   
 ### 5. Minimum Difference Subset or Minimum Subset Sum Difference 
