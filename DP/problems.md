@@ -128,8 +128,8 @@ You are given two integer arrays nums1 and nums2. Return the maximum number of c
 
 
 ### 4. Longest Repeating Subsequence  
-You are given a string ‘st’, Your task is to find the length of the longest repeating subsequence such that two subsequences don’t have the same character at the same position.
-#### Question Link - https://www.codingninjas.com/codestudio/problems/longest-repeating-subsequence_1118110?topList=top-google-coding-interview-questions
+You are given a string ‘str’, Your task is to find the length of the longest repeating subsequence such that two subsequences don’t have the same character at the same position.
+#### Question Link - https://www.codingninjas.com/codestudio/problems/longest-repeating-subsequence_1118110
 
 ##### Note: Problem is just modification of LCS. The idea is to find the LCS(str, str) where str is the input string with the restrication that when both the character are same, they shouldn't be on the same index in the two strings.  
 
