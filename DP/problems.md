@@ -121,9 +121,18 @@ Len of SCS
   
   
 ### 3. Uncrossed Lines  
-You are given two integer arrays nums1 and nums2. Return the maximum number of connecting lines we can draw in this way  
+You are given two integer arrays nums1 and nums2. Return the maximum number of connecting lines we can draw in this way.  
 #### Question Link - https://leetcode.com/problems/uncrossed-lines/
 
-##### Note: Same as LCS because all uncrossed lines can be find only if we find LCS for all numbers
+##### Note: Same as LCS because all uncrossed lines can be find only if we find LCS for all numbers.  
+
+
+### 4. Longest Repeating Subsequence  
+You are given a string ‘st’, Your task is to find the length of the longest repeating subsequence such that two subsequences don’t have the same character at the same position.
+#### Question Link - https://www.codingninjas.com/codestudio/problems/longest-repeating-subsequence_1118110?topList=top-google-coding-interview-questions
+
+##### Note: Problem is just modification of LCS. The idea is to find the LCS(str, str) where str is the input string with the restrication that when both the character are same, they shouldn't be on the same index in the two strings.  
+
+
    
    
