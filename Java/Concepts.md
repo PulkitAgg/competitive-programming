@@ -14,6 +14,9 @@
 ## Array
 1. #### Length of Array  
         arr.length;  
+      
+2. #### Clone of Array  
+        arr.clone();  
         
 ## Collection  
 ![Image](https://www.scientecheasy.com/wp-content/uploads/2018/09/java-collection-hierarchy.png)
