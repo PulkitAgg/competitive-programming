@@ -1,0 +1,73 @@
+1. Declare MaxHeap  
+        PriorityQueue<Integer> maxHeap = new PriorityQueue(Comparator.reverseOrder());
+        
+2.  Declare MinHeap
+        PriorityQueue<Integer> minHeap = new PriorityQueue();
+        
+3. Add element to heap/queue
+       queue.add(element)  
+       
+4. Get min/max from the heap  
+       heap.peek()
+     
+5. Remove min/max from the heap  
+       heap.poll() 
+  
+6. Check isEmpty
+       heap.isEmpty()
+       
+7. Iterating the PriorityQueue
+      Iterator iterator = pq.iterator();
+       while (iterator.hasNext()) {
+           System.out.print(iterator.next() + " ");
+       }
+    
+8. Covert queue to array  
+       String[] arr = new String[5];
+       String[] arr1 = queue.toArray(arr);
+       
+9. Declare custom heap/queue with its comparator
+class Student {
+    public String name;
+    public double cgpa;
+          
+    // A parameterized student constructor
+    public Student(String name, double cgpa) {
+        this.name = name;
+        this.cgpa = cgpa;
+    }
+      
+    public String getName() {
+        return name;
+    } 
+}
+
+
+class StudentComparator implements Comparator<Student>{
+    // Overriding compare()method of Comparator 
+    // for descending order of cgpa
+    public int compare(Student s1, Student s2) {
+        if (s1.cgpa < s2.cgpa)
+            return 1;
+        else if (s1.cgpa > s2.cgpa)
+            return -1;
+        return 0;
+    }
+}
+
+public class Example {
+    public static void main(String[] args){
+        PriorityQueue<Student> pq = new PriorityQueue<Student>(new StudentComparator());
+        Student student1 = new Student("Nandini", 3.2);
+        pq.add(student1);
+        Student student2 = new Student("Anmol", 3.6);
+        pq.add(student2);         
+        Student student3 = new Student("Palak", 4.0);
+        pq.add(student3);
+        while (!pq.isEmpty()) {
+            System.out.println(pq.poll().getName());
+        } 
+    }
+}
+// Output - Palak, Nandini, Anmol
+    
