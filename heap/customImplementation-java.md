@@ -76,7 +76,7 @@ public class CutstomMaxHeap {
 			int temp = this.heap[largest];
 			this.heap[largest] = this.heap[i];
 			this.heap[i] = temp;
-			this.downHeapify(right);
+			this.downHeapify(largest);
 		}
 	}
   
