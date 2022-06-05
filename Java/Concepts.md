@@ -38,3 +38,13 @@
 
 6. #### Conver to Array  
         toArray();  
+
+## Loops  
+1. #### Loop over hashmap  
+        Map<String,String> gfg = new HashMap<String,String>();
+        for (String name : gfg.keySet()) 
+        {
+            String url = gfg.get(name);
+            System.out.println("Key = " + name + ", Value = " + url);
+        }
+   
