@@ -145,5 +145,21 @@ You are given a string ‘str’, Your task is to find the length of the longest
 ##### Note: Problem is just modification of LCS. The idea is to find the LCS(str, str) where str is the input string with the restrication that when both the character are same, they shouldn't be on the same index in the two strings.  
 
 
+### 5. Edit Distance  
+Given two strings word1 and word2, return the minimum number of operations required to convert word1 to word2.  
+You have the following three operations permitted on a word:
+Insert a character, Delete a character, Replace a character
+#### Question Link - https://leetcode.com/problems/edit-distance/
+
+##### Note: 
+if s1 = "", ed = s2.length. s2 = "", ed = s1.length;  
+if a == b -> no change in edit distance, copy dp[i-1][j-1]  
+if(a != b) -> Min(Replace, Inset, Remove)  
+Replace - Res(m,n) = Res(m-1, n-1) + 1  
+Insert - Res(m, n) = Res(m, n-1) + 1  
+Remove- Res(m,n) = Res(m-1,n) + 1  
+
+
+
    
    
